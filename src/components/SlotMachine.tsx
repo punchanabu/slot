@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Lever from './Lever';
 import Reel from './Reel';
-import { generateReelSymbols } from './utils/symbols';
+import { generateReelSymbols } from '../utils/symbols';
 
 const SlotMachine = () => {
   const [reels, setReels] = useState([
